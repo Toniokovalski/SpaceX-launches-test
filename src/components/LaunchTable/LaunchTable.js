@@ -95,9 +95,9 @@ const LaunchTable = () => {
       <table>
         <thead>
           <tr>
-            <th onClick={() => handleSort("name")}>Name</th>
+            <th className={Styles.Cursor} onClick={() => handleSort("name")}>Name</th>
             <th>Flight number</th>
-            <th onClick={() => handleSort("date_utc")}>Date</th>
+            <th className={Styles.Cursor} onClick={() => handleSort("date_utc")}>Date</th>
             <th>Rocket Image</th>
             <th>Toggle favorite</th>
           </tr>

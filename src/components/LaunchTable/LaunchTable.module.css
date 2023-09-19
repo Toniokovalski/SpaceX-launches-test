@@ -49,6 +49,10 @@ tr:nth-child(2n) {
   background-color: #c1c1c1;
 }
 
+.Cursor {
+  cursor: pointer;
+}
+
 .ButtonWrap {
   display: flex;
   gap: 20px;
