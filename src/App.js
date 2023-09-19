@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SpaceX-launches-test">
       <Routes>
         <Route exact path="/" element={<LaunchTable />} />
         <Route path="/launch/:id" element={<LaunchDetails />} />
