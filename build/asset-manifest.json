@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SpaceX-launches-test/static/css/main.c6ecb988.css",
+    "main.js": "/SpaceX-launches-test/static/js/main.125710fd.js",
+    "index.html": "/SpaceX-launches-test/index.html",
+    "main.c6ecb988.css.map": "/SpaceX-launches-test/static/css/main.c6ecb988.css.map",
+    "main.125710fd.js.map": "/SpaceX-launches-test/static/js/main.125710fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6ecb988.css",
+    "static/js/main.125710fd.js"
+  ]
+}

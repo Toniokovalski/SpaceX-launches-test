@@ -25,11 +25,14 @@ thead {
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
 
-  @media (max-width: 480px) {
-    letter-spacing: 1px;
-    text-transform: capitalize;
-  }
+tbody tr {
+  cursor: pointer;
+}
+
+tbody tr:hover {
+  background-color: darkgrey;
 }
 
 th {
@@ -40,15 +43,10 @@ th,
 td {
   border: 1px solid black;
   padding: 8px;
-
-  @media (max-width: 480px) {
-    padding: 2px;
-    font-size: 0.775rem;
-  }
 }
 
 tr:nth-child(2n) {
-  background-color: lightgrey;
+  background-color: #c1c1c1;
 }
 
 .ButtonWrap {
@@ -68,4 +66,16 @@ tr:nth-child(2n) {
   border: none;
   cursor: pointer;
   font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  thead {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+
+  th, td {
+    padding: 2px;
+    font-size: 0.775rem;
+  }
 }

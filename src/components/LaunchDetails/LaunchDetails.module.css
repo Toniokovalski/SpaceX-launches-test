@@ -3,20 +3,12 @@
   max-width: 1180px;
   margin: 20px auto 0;
   min-width: auto;
-
-  @media (max-width: 780px) {
-    flex-wrap: wrap;
-  }
 }
 
 .Image {
   min-height: 200px;
   height: 200px;
   margin-bottom: 20px;
-
-  @media (max-width: 480px) {
-    margin: auto;
-  }
 }
 
 .Wrapper {
@@ -29,10 +21,9 @@
 
 .ButtonWrap {
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   gap: 20px;
   justify-content: center;
-  margin-bottom: 20px;
 }
 
 .ToggleButton {
@@ -59,4 +50,16 @@
   padding: 10px;
   width: 160px;
   box-sizing: border-box;
+}
+
+@media (max-width: 780px) {
+  .MainWrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .Image {
+    margin: auto;
+  }
 }
